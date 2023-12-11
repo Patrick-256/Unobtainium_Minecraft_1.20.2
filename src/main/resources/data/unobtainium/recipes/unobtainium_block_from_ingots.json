@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "unobtainium:unobtainium_ingot"
+    }
+  },
+  "result": {
+    "item": "unobtainium:unobtainium_block"
+  }
+}

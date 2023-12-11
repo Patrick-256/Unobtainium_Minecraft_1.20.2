@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "unobtainium:unobtainium_block"
+    }
+  ],
+  "result": {
+    "item": "unobtainium:unobtainium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "unobtainium_ingot",
+  "ingredient": {
+    "item": "unobtainium:unobtainium_ore"
+  },
+  "result": "unobtainium:unobtainium_ingot"
+}
