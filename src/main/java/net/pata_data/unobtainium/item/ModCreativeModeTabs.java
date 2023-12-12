@@ -34,6 +34,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.UNOBTAINIUM_AXE.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_SHOVEL.get());
                         pOutput.accept(ModItems.UNOBTAINIUM_HOE.get());
+
+                        pOutput.accept(ModItems.UNOBTAINIUM_HELMET.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_CHESTPLATE.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_LEGGINGS.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_BOOTS.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

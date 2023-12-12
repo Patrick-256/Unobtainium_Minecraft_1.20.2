@@ -26,6 +26,15 @@ public class ModItems {
     public static final RegistryObject<Item> UNOBTAINIUM_HOE = ITEMS.register("unobtainium_hoe",
             () -> new HoeItem(ModToolTiers.UNOBTAINIUM,2,2, new Item.Properties()));
 
+    public static final RegistryObject<Item> UNOBTAINIUM_HELMET = ITEMS.register("unobtainium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.UNOBTAINIUM,ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> UNOBTAINIUM_CHESTPLATE = ITEMS.register("unobtainium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.UNOBTAINIUM,ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> UNOBTAINIUM_LEGGINGS = ITEMS.register("unobtainium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.UNOBTAINIUM,ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> UNOBTAINIUM_BOOTS = ITEMS.register("unobtainium_boots",
+            () -> new ArmorItem(ModArmorMaterials.UNOBTAINIUM,ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

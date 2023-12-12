@@ -41,7 +41,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.UNOBTAINIUM_BLOCK.get()), has(ModBlocks.UNOBTAINIUM_BLOCK.get()))
                 .save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.UNOBTAINIUM_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.UNOBTAINIUM_SWORD.get())
                 .pattern("III")
                 .pattern("ISI")
                 .pattern("III")
@@ -83,6 +83,39 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("III")
                 .define('I',ModItems.UNOBTAINIUM_INGOT.get())
                 .define('N', Items.NETHERITE_HOE)
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()),has(ModItems.UNOBTAINIUM_INGOT.get()))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.UNOBTAINIUM_HELMET.get())
+                .pattern("III")
+                .pattern("INI")
+                .pattern("III")
+                .define('I',ModItems.UNOBTAINIUM_INGOT.get())
+                .define('N', Items.NETHERITE_HELMET)
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()),has(ModItems.UNOBTAINIUM_INGOT.get()))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.UNOBTAINIUM_CHESTPLATE.get())
+                .pattern("III")
+                .pattern("INI")
+                .pattern("III")
+                .define('I',ModItems.UNOBTAINIUM_INGOT.get())
+                .define('N', Items.NETHERITE_CHESTPLATE)
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()),has(ModItems.UNOBTAINIUM_INGOT.get()))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.UNOBTAINIUM_LEGGINGS.get())
+                .pattern("III")
+                .pattern("INI")
+                .pattern("III")
+                .define('I',ModItems.UNOBTAINIUM_INGOT.get())
+                .define('N', Items.NETHERITE_LEGGINGS)
+                .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()),has(ModItems.UNOBTAINIUM_INGOT.get()))
+                .save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.UNOBTAINIUM_BOOTS.get())
+                .pattern("III")
+                .pattern("INI")
+                .pattern("III")
+                .define('I',ModItems.UNOBTAINIUM_INGOT.get())
+                .define('N', Items.NETHERITE_BOOTS)
                 .unlockedBy(getHasName(ModItems.UNOBTAINIUM_INGOT.get()),has(ModItems.UNOBTAINIUM_INGOT.get()))
                 .save(recipeOutput);
     }
