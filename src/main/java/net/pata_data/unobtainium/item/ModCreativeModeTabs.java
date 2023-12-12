@@ -28,6 +28,12 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.UNOBTAINIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.UNOBTAINIUM_RAW.get());
+
+                        pOutput.accept(ModItems.UNOBTAINIUM_SWORD.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_PICKAXE.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_AXE.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_SHOVEL.get());
+                        pOutput.accept(ModItems.UNOBTAINIUM_HOE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

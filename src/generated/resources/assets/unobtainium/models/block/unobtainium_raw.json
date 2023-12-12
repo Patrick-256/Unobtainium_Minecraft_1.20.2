@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "unobtainium:block/unobtainium_raw"
+  }
+}

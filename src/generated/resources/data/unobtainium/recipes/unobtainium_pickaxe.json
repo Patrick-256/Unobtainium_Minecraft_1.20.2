@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "unobtainium:unobtainium_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_pickaxe"
+    }
+  },
+  "pattern": [
+    "III",
+    "INI",
+    "III"
+  ],
+  "result": {
+    "item": "unobtainium:unobtainium_pickaxe"
+  },
+  "show_notification": true
+}

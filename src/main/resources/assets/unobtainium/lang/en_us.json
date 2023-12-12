@@ -2,6 +2,12 @@
   "item.unobtainium.unobtainium_ore": "Unobtainium Ore",
   "item.unobtainium.unobtainium_ingot": "Unobtainium Ingot",
 
+  "item.unobtainium.unobtainium_sword": "Netherite+ Sword",
+  "item.unobtainium.unobtainium_pickaxe": "Netherite+ Pickaxe",
+  "item.unobtainium.unobtainium_axe": "Netherite+ Axe",
+  "item.unobtainium.unobtainium_shovel": "Netherite+ Shovel",
+  "item.unobtainium.unobtainium_hoe": "Netherite+ Hoe",
+
   "block.unobtainium.unobtainium_block": "Block of Unobtainium",
   "block.unobtainium.unobtainium_raw": "Unobtainium Ore",
 
